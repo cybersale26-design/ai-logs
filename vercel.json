@@ -4,5 +4,12 @@
   "framework": "react",
   "env": {
     "REACT_APP_ENV": "production"
-  }
+  },
+  "public": true,
+  "functions": {
+    "api/**": {
+      "maxDuration": 10
+    }
+  },
+  "regions": ["iad1"]
 }
